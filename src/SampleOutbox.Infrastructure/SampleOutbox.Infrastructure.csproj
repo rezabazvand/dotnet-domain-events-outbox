@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <ItemGroup>
+    <ProjectReference Include="..\SampleOutbox.Application\SampleOutbox.Application.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="$(EfCoreVersion)" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Relational" Version="$(EfCoreVersion)" />
+    <PackageReference Include="Microsoft.Extensions.Hosting.Abstractions" Version="$(ExtensionsVersion)" />
+    <PackageReference Include="Microsoft.Extensions.Logging.Abstractions" Version="$(ExtensionsVersion)" />
+  </ItemGroup>
+
+</Project>
